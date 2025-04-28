@@ -10,8 +10,8 @@
     </padding>
 
     <Label fx:id="welcomeText" text="Введіть параметри інтегрування:" />
-    <TextField fx:id="aField" promptText="a (нижня межа)" />
-    <TextField fx:id="bField" promptText="b (верхня межа)" />
+    <TextField fx:id="aField" promptText="a" />
+    <TextField fx:id="bField" promptText="b" />
     <TextField fx:id="nField" promptText="Кількість розбиттів" />
     <TextField fx:id="threadsField" promptText="Кількість потоків"/>
     <Button onAction="#onCalculateButtonClick" text="Обчислити" />
