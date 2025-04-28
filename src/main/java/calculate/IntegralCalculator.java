@@ -19,7 +19,7 @@ public class IntegralCalculator {
     public double calculate() {
         double h = (b - a) / n;
         return IntStream.range(0, n)
-                .mapToDouble(i -> a + i * h + h / 2) // Середина кожного інтервалу
+                .mapToDouble(i -> a + i * h + h / 2)
                 .map(f)
                 .sum() * h;
     }

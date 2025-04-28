@@ -1,7 +1,5 @@
 package calculate;
 
-
-import com.sun.tools.javac.Main;
 import org.example.javalab10.HelloController;
 
 import java.util.function.DoubleUnaryOperator;

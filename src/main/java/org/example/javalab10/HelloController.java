@@ -2,7 +2,6 @@ package org.example.javalab10;
 
 import calculate.RunnableIntegralCalculator;
 import javafx.fxml.FXML;
-import javafx.scene.control.Button;
 import javafx.scene.control.Label;
 import javafx.scene.control.TextField;
 
